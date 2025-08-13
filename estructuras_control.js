@@ -34,3 +34,21 @@ let edad = 18;
     else if (calificacion >= 60) 
         { console.log("Suficiente - D"); } 
     else { console.log("Insuficiente - F"); } // Resultado: "Muy bueno - B
+
+    for (let i = 7; i <= 10; i++) 
+    { console.log("Número: " + i); } // Resultado: // Número: 1 // Número: 2 // Número: 3 // Número: 4 // Número: 5
+
+
+    for (let i = 1; i <= 10; i++)
+         { console.log(`1000 x ${i} = ${1000 * i}`); } // Resultado: Tabla del 5
+
+    let frutas2 = ["manzana", "banana", "naranja"]; 
+    for (let i =  frutas2.length -1; i>=0; i--) 
+        { console.log(frutas2[i]); } // Resultado: manzana, banana, naranja}
+
+    // FOR...OF (para recorrer valores) 
+    let colores = ["rojo", "verde", "azul"];
+     for (let color of colores) { console.log(color); } 
+     // FOR...IN (para recorrer propiedades)
+      let persona = {nombre: "Juan", edad: 25, ciudad: "Madrid"}; 
+      for (let propiedad in persona) { console.log(propiedad + ": " + persona[propiedad]); }   
