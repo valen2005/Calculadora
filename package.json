@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "name": "calculadora",
+  "version": "1.0.0",
+  "main": "calculadora.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valen2005/Calculadora.git"
+  },
+  "keywords": [
+    "for",
+    "if",
+    "else",
+    "swith"
+  ],
+  "author": "Valentina Gaviria Bedoya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valen2005/Calculadora/issues"
+  },
+  "homepage": "https://github.com/valen2005/Calculadora#readme",
+  "description": ""
 }
